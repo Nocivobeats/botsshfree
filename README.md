@@ -15,6 +15,4 @@ __Pacotes nescessarios:__
 - screen
 - zip
 
-nosso telegram 
-https://t.me/EQUIPEVIPSUPORTE
 
