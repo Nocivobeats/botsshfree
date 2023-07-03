@@ -90,7 +90,7 @@ switch ($tlg->Text ()){
 
 		exec ('./gerarusuario.sh '.$usuario.' '.$senha.' 1 1');
 
-		$textoSSH="CONTA CRIADA\r\n\r\nPORTA 80/8080/443\r\nIP:191.252.203.155\r\nDOMINIO enterprisehost.shop\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 day'))."\r\n\r\nOferecido por @NocivoBeats";	$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
+		$textoSSH="CONTA CRIADA\r\nhttps://t.me/ferramentasbotsshgratis\r\nPORTA 80/8080/443\r\nIP:191.252.203.155\r\nDOMINIO enterprisehost.shop\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 day'))."\r\n\r\nOferecido por @NocivoBeats";	$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
 
 	}
 
