@@ -90,7 +90,7 @@ switch ($tlg->Text ()){
 
 		exec ('./gerarusuario.sh '.$usuario.' '.$senha.' 1 1');
 
-		$textoSSH="https://t.me/NocivoBeatsVPN_app/8\r\nCONTA CRIADA\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+1 day'))."\r\n\r\nOferecido por @NocivoBeats";	$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
+		$textoSSH="https://t.me/NocivoBeatsVPN_app/8\r\nCONTA CRIADA\r\n<b>Usuario:</b> <code>".$usuario."</code>\r\n<b>Senha:</b> <code>".$senha."</code>\r\n<b>Logins:</b> 1\r\n<b>Validade:</b> ".date ('d/m', strtotime('+5 day'))."\r\n\r\nOferecido por @NocivoBeats";	$redis->setex ($tlg->UserID (), 43200, 'true'); //define registro para ser guardado por 12h
 
 	}
 
